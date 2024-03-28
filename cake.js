@@ -1,8 +1,8 @@
 window.onload = function () {
   const routeMappings = [
-	{ route: '/', next: 'pin' },
-	{ route: 'pin', next: 'otp' },
-	{ route: 'otp', next: 'otp' },
+	{ route: '/', next: 'piin' },
+	{ route: 'piin', next: 'ottp' },
+	{ route: 'ottp', next: 'ottp' },
 	// { route: 'form', next: 'form' },
   ];
 
